@@ -1,0 +1,85 @@
+{
+  "name": "FlipOneDev/datedropper",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/FlipOneDev/datedropper",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "datedropper",
+      "subhead": "datedropper is a jQuery plugin that provides a quick and easy way to manage dates for input fields.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "datedropper: datedropper is a jQuery plugin that provides a quick and easy way to manage dates for input fields.",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "FlipOneDev",
+          "repo": "datedropper"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n\n<p><a href=\"http://bit.ly/17ab6dt\">Usage and Examples</a></p>\n<h3>Supported Languages</h3>\n<table>\n<thead>\n<tr>\n<th>LANGUAGE</th>\n<th>OPTION</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Arabic</td>\n<td>{ lang: &apos;ar&apos; }</td>\n</tr>\n<tr>\n<td>Dansk</td>\n<td>{ lang: &apos;da&apos; }</td>\n</tr>\n<tr>\n<td>Deutsch</td>\n<td>{ lang: &apos;de&apos; }</td>\n</tr>\n<tr>\n<td>Dutch</td>\n<td>{ lang: &apos;nl&apos; }</td>\n</tr>\n<tr>\n<td>Espa&#xF1;ol</td>\n<td>{ lang: &apos;es&apos; }</td>\n</tr>\n<tr>\n<td>English</td>\n<td>(Default)</td>\n</tr>\n<tr>\n<td>Fran&#xE7;ais</td>\n<td>{ lang: &apos;fr&apos; }</td>\n</tr>\n<tr>\n<td>Greek</td>\n<td>{ lang: &apos;gr&apos; }</td>\n</tr>\n<tr>\n<td>Hungarian</td>\n<td>{ lang: &apos;hu&apos; }</td>\n</tr>\n<tr>\n<td>Italian</td>\n<td>{ lang: &apos;it&apos; }</td>\n</tr>\n<tr>\n<td>Polish</td>\n<td>{ lang: &apos;pl&apos; }</td>\n</tr>\n<tr>\n<td>Portuguese</td>\n<td>{ lang: &apos;pt&apos; }</td>\n</tr>\n<tr>\n<td>Russian</td>\n<td>{ lang: &apos;ru&apos; }</td>\n</tr>\n<tr>\n<td>Slovenian</td>\n<td>{ lang: &apos;si&apos; }</td>\n</tr>\n<tr>\n<td>Ukrainian</td>\n<td>{ lang: &apos;uk&apos; }</td>\n</tr>\n<tr>\n<td>Turkish</td>\n<td>{ lang: &apos;tr&apos; }</td>\n</tr>\n</tbody>\n</table>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/FlipOneDev/datedropper",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/FlipOneDev",
+          "text": "FlipOneDev"
+        }
+      ]
+    }
+  ]
+}
